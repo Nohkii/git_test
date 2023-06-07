@@ -1,0 +1,14 @@
+package webapp;
+
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class Greet extends HttpServlet{
+	
+	@Override
+	public void doGet(HttpServletRequest req, HttpServletResponse res) {
+		System.out.println("greet");
+	}
+
+}
