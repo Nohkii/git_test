@@ -5,6 +5,6 @@ public Tire tire;
 
 public void run() {
 	tire.roll();
-	
+	System.out.println("뭔디");
 }
 }
